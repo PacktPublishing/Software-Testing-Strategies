@@ -1,0 +1,3 @@
+this is a foo file
+this is a file that has been edited inside the container
+

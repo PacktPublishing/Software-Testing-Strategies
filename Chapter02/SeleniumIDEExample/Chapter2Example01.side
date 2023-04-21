@@ -1,0 +1,162 @@
+{
+  "id": "669c127f-016b-4b31-a0fe-7e76a52238bd",
+  "version": "2.0",
+  "name": "TestingBook",
+  "url": "https://xndev.com",
+  "tests": [{
+    "id": "df27a463-92d3-4e42-b7dd-1c86488bea5b",
+    "name": "Chapter01Test01",
+    "commands": [{
+      "id": "3e005d85-1f2f-4c38-ae7a-2728a5e7e25b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "598944df-ca9a-4818-b263-9e4c5e75a7a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1678x902",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e1c5322-4fca-41f6-8b86-c01a4c457a6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clearfix > #menu-top > #menu-item-2446 > .menu-btn",
+      "targets": [
+        ["css=.clearfix > #menu-top > #menu-item-2446 > .menu-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Consulting')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2446']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://xndev.com/consulting/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5db27d18-31ed-4e9a-a22c-cd50596c48a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-button-text",
+      "targets": [
+        ["css=.elementor-button-text", "css:finder"],
+        ["xpath=//article[@id='post-10']/div/div/div/div/section[5]/div[2]/div/div/div/div/div[3]/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//div/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c67b2144-cbff-49a6-b279-a902df914ac0",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_2_1_3",
+      "targets": [
+        ["id=input_2_1_3", "id"],
+        ["name=input_1.3", "name"],
+        ["css=#input_2_1_3", "css:finder"],
+        ["xpath=//input[@id='input_2_1_3']", "xpath:attributes"],
+        ["xpath=//span[@id='input_2_1_3_container']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a74e933f-d64b-4cb7-9871-3bc694493b0d",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_2_1_3",
+      "targets": [
+        ["id=input_2_1_3", "id"],
+        ["name=input_1.3", "name"],
+        ["css=#input_2_1_3", "css:finder"],
+        ["xpath=//input[@id='input_2_1_3']", "xpath:attributes"],
+        ["xpath=//span[@id='input_2_1_3_container']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Matthew"
+    }, {
+      "id": "3ebe63eb-37b5-4dae-8dfb-03f9c513b4da",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_2_1_6",
+      "targets": [
+        ["id=input_2_1_6", "id"],
+        ["name=input_1.6", "name"],
+        ["css=#input_2_1_6", "css:finder"],
+        ["xpath=//input[@id='input_2_1_6']", "xpath:attributes"],
+        ["xpath=//span[@id='input_2_1_6_container']/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "Heusser"
+    }, {
+      "id": "a18b0b14-d49c-4506-b458-e6851faa02bd",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_2_2",
+      "targets": [
+        ["id=input_2_2", "id"],
+        ["name=input_2", "name"],
+        ["css=#input_2_2", "css:finder"],
+        ["xpath=//input[@id='input_2_2']", "xpath:attributes"],
+        ["xpath=//li[@id='field_2_2']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "matt@xndev.com"
+    }, {
+      "id": "a651afef-eab0-4e8a-b09d-37ab43f8b468",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_2_3",
+      "targets": [
+        ["id=input_2_3", "id"],
+        ["name=input_3", "name"],
+        ["css=#input_2_3", "css:finder"],
+        ["xpath=//textarea[@id='input_2_3']", "xpath:attributes"],
+        ["xpath=//li[@id='field_2_3']/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Testing the contact us page"
+    }, {
+      "id": "d1159f32-68d2-4f28-9bc6-0c3bf7640d47",
+      "comment": "",
+      "command": "click",
+      "target": "id=gform_submit_button_2",
+      "targets": [
+        ["id=gform_submit_button_2", "id"],
+        ["css=#gform_submit_button_2", "css:finder"],
+        ["xpath=//input[@id='gform_submit_button_2']", "xpath:attributes"],
+        ["xpath=//form[@id='gform_2']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d95c114b-5760-408d-8d34-71a8e5a8aec3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=tb-alert alert alert-success_2",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "265ae145-386f-4d81-881f-b823b62641f6",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=tb-alert alert alert-success_2",
+      "targets": [
+        ["id=tb-alert alert alert-success_2", "id"],
+        ["css=#tb-alert\\ alert\\ alert-success_2", "css:finder"],
+        ["xpath=//div[@id='tb-alert alert alert-success_2']", "xpath:attributes"],
+        ["xpath=//div[@id='gform_confirmation_wrapper_2']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Thank you for contacting Excelon Development. We just sent your message to our managing director, Matt Heusser, who you can always reach at matt@xndev.com."
+    }]
+  }],
+  "suites": [{
+    "id": "8157855a-082d-4c43-833d-3956a68e5b15",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["df27a463-92d3-4e42-b7dd-1c86488bea5b"]
+  }],
+  "urls": ["https://xndev.com/"],
+  "plugins": []
+}
