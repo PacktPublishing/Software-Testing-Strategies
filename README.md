@@ -44,7 +44,10 @@ With the following software and hardware list you can run all code files present
 | 1-16 | Ruby | Windows, macOS, Linux |
 | 1-16 | JMeter | Windows, macOS, Linux |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](http://www.packtpub.com/sites/default/files/downloads/Software-Testing-Strategies_ColorImages.pdf).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781837638024_ColorImages.pdf).
+
+## Errata
+* Page xxi (Paragraph 3, line 2): **https://static.packt-cdn.com/downloads/Software-Testing-Strategies_ColorImages.pdf** _should be_ **https://static.packt-cdn.com/downloads/9781837638024_ColorImages.pdf**
 
 ### Related products
 * Software Test Design [[Packt]](https://www.packtpub.com/product/software-test-design/9781804612569) [[Amazon]](https://www.amazon.com/Software-Test-Design-comprehensive-critical/dp/1804612561/ref=sr_1_3?crid=1XFZRKCWH4ZL1&keywords=Software+Test+Design&qid=1701427938&sprefix=software+test+design%2Caps%2C515&sr=8-3)
